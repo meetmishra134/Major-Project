@@ -1,5 +1,5 @@
 import React from "react";
-
+import { IoLogInOutline } from "react-icons/io5";
 function Navbar() {
   return (
     <>
@@ -9,7 +9,7 @@ function Navbar() {
           <div className="flex items-center">
             <div className="ml-4">
               <img
-                src="./images/logo.png"
+                src="./images/campuslylogo.png"
                 alt="CampuslyLogo"
                 className="h-14 w-auto"
               />
@@ -34,10 +34,11 @@ function Navbar() {
           </div>
           {/*login & signup section*/}
           <div className="mr-5 flex gap-6">
-            <button className="cursor-pointer rounded-full border-2 px-5 py-2">
+            <button className="flex cursor-pointer items-center gap-0.5 rounded-full border-2 px-5 py-2">
+              <IoLogInOutline size="1.2em" />
               Login
             </button>
-            <button className="cursor-pointer rounded-full border-2 bg-gray-400 px-6 py-2 font-extrabold text-white">
+            <button className="cursor-pointer rounded-full border-2 bg-blue-400 px-5 py-2 font-extrabold text-white">
               Sign Up
             </button>
           </div>

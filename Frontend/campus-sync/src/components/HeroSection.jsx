@@ -14,18 +14,21 @@ function HeroSection() {
             A smart platform for students and faculties to access resources,
             share notes, and collaborate effortlessly.
           </p>
-          <div className="flex gap-6 px-1 py-4">
-            <button className="flex items-center gap-0.5 rounded-xl bg-blue-600 px-6 py-3 text-white shadow-lg hover:bg-blue-700">
+          <p className="text-md mt-4 mb-5 font-medium text-gray-700">
+            Choose your role to get started
+          </p>
+          <div className="flex gap-6">
+            <button className="flex cursor-pointer items-center gap-0.5 rounded-xl bg-blue-600 px-6 py-3 text-white shadow-lg hover:bg-blue-700">
               <HiAcademicCap size="1.3em" />
-              for Students
+              I'm a Student
             </button>
-            <button className="flex items-center gap-1 rounded-xl bg-gray-200 px-6 py-3 text-gray-600 hover:bg-gray-300">
+            <button className="flex cursor-pointer items-center gap-1 rounded-xl bg-gray-200 px-6 py-3 text-gray-600 hover:bg-gray-300">
               <MdPeopleOutline size="1.3em" />
-              For facultys
+              I'am a Faculty
             </button>
           </div>
         </div>
-        <div className="flex flex-1 justify-center">
+        <div className="flex w-1/2 flex-1 justify-center">
           <Lottie animationData={Learning} />
         </div>
       </div>
