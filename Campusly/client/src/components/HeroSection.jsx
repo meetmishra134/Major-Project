@@ -6,15 +6,15 @@ function HeroSection() {
   return (
     <section className="bg-gray-50 px-10 py-20">
       <div className="container mx-auto flex max-h-max items-center justify-between gap-10">
-        <div className="flex-1 text-center lg:text-left">
+        <div className="flex-1 lg:text-left">
           <h1 className="text-5xl font-extrabold text-blue-900">
             Welcome to <span className="text-blue-500">Campusly</span>
           </h1>
           <p className="mx-auto mt-3 max-w-lg text-lg text-gray-700 lg:mx-0">
             A smart platform for students and faculties to access resources,
-            share notes, and collaborate effortlessly.
+            share notes, and communicate effortlessly.
           </p>
-          <p className="text-md mt-4 mb-5 font-medium text-gray-700">
+          <p className="mt-2 mb-5 text-lg font-medium text-gray-700">
             Choose your role to get started
           </p>
           <div className="flex gap-6">

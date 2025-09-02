@@ -1,14 +1,14 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
-import About from "./components/About";
+import KeyHighlights from "./components/KeyHighlights";
 
 function App() {
   return (
     <div className="overflow-x-hidden">
       <Navbar />
       <HeroSection />
-      <About />
+      <KeyHighlights />
     </div>
   );
 }

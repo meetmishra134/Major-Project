@@ -11,22 +11,19 @@ function Navbar() {
               <img
                 src="./images/campuslylogo.png"
                 alt="CampuslyLogo"
-                className="h-14 w-auto"
+                className="h-11 w-auto"
               />
             </div>
             {/*menu section*/}
             <div className="ml-8 hidden md:block">
               <ul className="font-md flex items-center gap-4 text-lg">
-                <li className="rounded-xl px-4 py-2 font-normal transition duration-300 hover:bg-gray-100">
-                  About Us
-                </li>
-                <li className="rounded-xl px-4 py-2 font-normal transition duration-300 hover:bg-gray-100">
+                <li className="rounded-xl px-4 py-2 font-medium transition duration-300 hover:bg-gray-100">
                   Our Features
                 </li>
-                <li className="rounded-xl px-4 py-2 font-normal transition duration-300 hover:bg-gray-100">
+                <li className="rounded-xl px-4 py-2 font-medium transition duration-300 hover:bg-gray-100">
                   For Students
                 </li>
-                <li className="rounded-xl px-4 py-2 font-normal transition duration-300 hover:bg-gray-100">
+                <li className="rounded-xl px-4 py-2 font-medium transition duration-300 hover:bg-gray-100">
                   For Facultys
                 </li>
               </ul>
@@ -38,7 +35,7 @@ function Navbar() {
               <IoLogInOutline size="1.2em" />
               Login
             </button>
-            <button className="cursor-pointer rounded-full border-2 bg-blue-400 px-5 py-2 font-extrabold text-white">
+            <button className="cursor-pointer rounded-full border-2 bg-blue-500 px-5 py-2 font-extrabold text-white">
               Sign Up
             </button>
           </div>
